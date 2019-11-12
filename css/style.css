@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://www.stevens-wood.com/sites/default/files/swatches/L29-Natural%20Marrone.jpg);
+  padding: 30px;
+}
+
+.header-top {
+  height: 90px;
+  line-height: 90px;
+}
+
+#gmail-logo {
+  height: 90px;
+  vertical-align: middle;
+}
+
+.main-title {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+button {
+  border-radius: 5px;
+  padding: 1px 6px;
+}
+
+.title-unread {
+  color: white
+}
+
+.title-unread span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  background-color: #FFA500;
+  border-radius: 50%;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.email {
+  background-color: grey;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+.email p {
+  display: inline;
+}
+
+.read {
+  background: white;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.footer span {
+  font-style: italic;
+  font-size: 20px;
+}
