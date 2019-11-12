@@ -9,6 +9,11 @@ body {
   padding: 30px;
 }
 
+button {
+  border-radius: 5px;
+  padding: 1px 6px;
+}
+
 .header-top {
   height: 90px;
   line-height: 90px;
@@ -25,11 +30,6 @@ body {
   font-size: 30px;
   color: white;
   text-align: center;
-}
-
-button {
-  border-radius: 5px;
-  padding: 1px 6px;
 }
 
 .title-unread {
